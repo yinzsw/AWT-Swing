@@ -52,14 +52,14 @@ public class LoginPanel extends JPanel {
         JLabel usernameLab = new JLabel("账号: ");
         compStyleFactory(usernameLab, labFont, labFgColor, null);
 
-        usernameField = new JTextField("admin1", 14);
+        usernameField = new JTextField("", 14);
         compStyleFactory(usernameField, filedFont, filedFgColor, filedBorder);
         usernameField.setOpaque(false);
 
         JLabel passwordLab = new JLabel("密码: ");
         compStyleFactory(passwordLab, labFont, labFgColor, null);
 
-        passwordField = new JPasswordField("admin1", 14);
+        passwordField = new JPasswordField("", 14);
         compStyleFactory(passwordField, filedFont, filedFgColor, filedBorder);
         passwordField.setOpaque(false);
         passwordField.setEchoChar('*');
